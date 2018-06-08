@@ -21,8 +21,8 @@ function getSecondLargest(nums) {
 }
 
 function main() {
-    const n = +(readLine());
-    const nums = readLine().split(' ').map(Number);
+    const n = 5;
+    const nums = [2,5,3,6,6];
     
     console.log(getSecondLargest(nums));
 }
