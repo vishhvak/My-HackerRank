@@ -1,10 +1,10 @@
 function getMaxLessThanK(n, k) {
-    let answer = 0;
+    let ans = 0;
     for (let i = 1; i < n; i++)
         for (let j = i+1; j <= n; j++)
-            if ((i&j) < k && (i&j) > big)
-                answer = i&j;
-    return answer;
+            if ((i&j) < k && (i&j) > ans)
+                ans = i&j;
+    return ans;
 }
 
 /* Fastest Way
