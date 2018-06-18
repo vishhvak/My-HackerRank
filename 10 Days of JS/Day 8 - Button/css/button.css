@@ -1,0 +1,6 @@
+.btnclass {
+   	width: 96px;
+    height: 48px;
+    font-size: 24px;
+    background: linear-gradient(to top, #ffffff 0%,#e5e5e5 100%);
+}	
